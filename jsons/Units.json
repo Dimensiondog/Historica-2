@@ -230,8 +230,7 @@
 	},
 	{
 		"name": "War Chariot",
-		"unitType": "Archery",
-		"replaces": "Chariot Archer",
+		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 12,
 		"rangedStrength": 10,
