@@ -1,3 +1,15 @@
 {
     "isBaseRuleset": true,
+     {
+        "maxLakeSize": 5,
+        "baseCityBombardRange": 3,
+        "cityWorkRange": 5,
+        "minimalCityDistance": 5,
+        "maxSpyRank": 7,       
+        "spyRankSkillPercentBonus": 15,        
+        "baseTurnsUntilRevolt": 2,
+        "riverCountMultiplier": 0.015,
+        "pantheonBase": 25,
+        "pantheonGrowth": 0
+    },
 }
