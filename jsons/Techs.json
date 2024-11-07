@@ -2,106 +2,110 @@
 	{
 		"columnNumber": 0,
 		"era": "Ancient era",
-		"techCost": 20,
+		"techCost": 35,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Agriculture",
-				"row": 6,
+				"name": "Fishing",
+				"row": 1,
+            		    	"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
-				"uniques": ["Starting tech"]
-			}
+			},			
+			{
+				"name": "Agriculture",
+				"row": 3,
+            		    	"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 5,
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+			},
+			{
+				"name": "Mining",
+				"row": 7,
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Calendar",
+				"row": 9,
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			},
 		]
 	},
 	{
 		"columnNumber": 1,
 		"era": "Ancient era",
-		"techCost": 35,
+		"techCost": 55,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Pottery",
+				"name": "Exploration",
 				"row": 2,
-				"prerequisites": ["Agriculture"],
+				"prerequisites": ["Agriculture","Fishing"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
-				"name": "Animal Husbandry",
-				"row": 5,
-				"prerequisites": ["Agriculture"],
-				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
-			},
-			{
-				"name": "Archery",
-				"row": 7,
-				"prerequisites": ["Agriculture"],
+				"name": "Carpentry",
+				"row": 4,
+				"prerequisites": ["Agriculture","Animal Husbandry"],
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
 			{
-				"name": "Mining",
-				"row": 9,
-				"prerequisites": ["Agriculture"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
-			}
-
-		]
-	},
-	{
-		"columnNumber": 2,
-		"era": "Ancient era",
-		"techCost": 55,
-		"buildingCost": 75,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name": "Sailing",
-				"row": 1,
-				"prerequisites": ["Pottery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
-			},
-			{
-				"name": "Calendar",
-				"row": 2,
-				"prerequisites": ["Pottery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
-			},
-			{
-				"name": "Writing",
-				"row": 3,
-				"prerequisites": ["Pottery"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
-			},
-			{
-				"name": "Trapping",
-				"row": 5,
-				"prerequisites": ["Animal Husbandry"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
-			},
-			{
 				"name": "The Wheel",
-				"row": 7,
-				"prerequisites": ["Animal Husbandry", "Archery"],
+				"row": 6,
+				"prerequisites": ["Animal Husbandry", "Mining"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
 				"name": "Masonry",
-				"row": 9,
-				"prerequisites": ["Mining"],
+				"row": 8,
+				"prerequisites": ["Mining","Calendar"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Ancient era",
+		"techCost": 105,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 2,
+				"prerequisites": ["Exploration","Carpentry],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Chariots",
+				"row": 4,
+				"prerequisites": ["The Wheel","Carpentry],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Urbanisation",
+				"row": 7,
+				"prerequisites": ["The Wheel","Masonry"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
 				"name": "Bronze Working",
-				"row": 10,
-				"prerequisites": ["Mining"],
+				"row": 9,
+				"prerequisites": ["Masonry"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
@@ -124,21 +128,27 @@
 			},
 			{
 				"name": "Horseback Riding",
-				"row": 5,
-				"prerequisites": ["Trapping","The Wheel"],
+				"row": 3,
+				"prerequisites": ["Chariots","The Wheel"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
 				"name": "Mathematics",
-				"row": 7,
-				"prerequisites": ["The Wheel"],
+				"row": 5,
+				"prerequisites": ["Urbanisation"],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+			},
+			{
+				"name": "Writing",
+				"row": 7,
+				"prerequisites": ["Urbanisation"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
 			{
 				"name": "Construction",
 				"row": 9,
-				"prerequisites": ["Masonry","The Wheel"],
+				"prerequisites": ["Bronze Working"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			}
