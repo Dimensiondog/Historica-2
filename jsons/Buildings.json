@@ -22,6 +22,14 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Well",
+		"Food": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Must not be on [Fresh Water]"]
+	},
+	{
 		"name": "Stele",
         "replaces": "Monument",
 		"uniqueTo": "Ethiopia",
@@ -41,14 +49,14 @@
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Pottery"
+		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "Calendar",
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
@@ -59,8 +67,16 @@
 		"science": 2,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "Calendar",
 		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Stonehenge",
+		"faith": 5,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"requiredTech": "Calendar",
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
 	{
 		"name": "Temple of Artemis",
@@ -69,7 +85,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
         "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
             "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
-		"requiredTech": "Archery",
+		"requiredTech": "Construction",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
 	// Column 2
@@ -80,18 +96,38 @@
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
+		"uniques": [
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
-		"requiredTech": "Calendar"
+		"requiredTech": "Masonry"
 	},
 	{
-		"name": "Stonehenge",
-		"faith": 5,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"requiredTech": "Calendar",
-		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+		"name": "Lodge",
+		"happiness": 1,
+		"Food": 1,
+		"requiredNearbyImprovedResources": ["Furs", "Deer","Ivory","Truffles"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Gold] from [Furs] tiles [in this city]",
+			"[+1 Gold] from [Truffles] tiles [in this city]",
+			"[+1 Gold] from [Ivory] tiles [in this city]"],
+		"requiredTech": "Exploration"
+	},
+	{
+		"name": "Herbalist",
+		"happiness": 1,
+		"culture": 1,
+		"requiredNearbyImprovedResources": ["Incense", "Wine","Spices","Sugar"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Faith] from [Incense] tiles [in this city]",
+			"[+1 Food] from [Wine] tiles [in this city]",
+			"[+1 Food] from [Sugar] tiles [in this city]",
+			"[+1 Gold] from [Spices] tiles [in this city]"],
+		"requiredTech": "Urbanisation"
 	},
 	{
 		"name": "Library",
@@ -124,7 +160,7 @@
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Trapping"
+		"requiredTech": "Exploration"
 	},
 	{
 		"name": "Water Mill",
@@ -133,7 +169,7 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
-		"requiredTech": "The Wheel"
+		"requiredTech": "Construction"
 	},
 	{
 		"name": "Floating Gardens",
@@ -145,7 +181,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
-		"requiredTech": "The Wheel"
+		"requiredTech": "Construction"
 	},
 	{
 		"name": "Walls",
@@ -182,8 +218,16 @@
 		"isWonder": true,
 		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
-		"requiredTech": "Masonry",
+		"requiredTech": "Currency",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+	},
+	{
+		"name": "Scribal Order",
+		"Science": 2,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"uniques": ["[+1 Science] from every specialist [in this city]"],
+		"requiredTech": "Urbanisation",
+		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
 	{
 		"name": "Barracks",
