@@ -1,5 +1,6 @@
 {
     "isBaseRuleset": true,
+        "constants":
      {
         "maxLakeSize": 5,
         "baseCityBombardRange": 3,
