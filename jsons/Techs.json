@@ -85,7 +85,7 @@
 				"name": "Sailing",
 				"row": 2,
 				"prerequisites": ["Exploration","Carpentry"],
-                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+                		"uniques": ["Enables embarkation for land units","[+100]% weight to this choice for AI decisions"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
@@ -127,7 +127,7 @@
 			{
 				"name": "Horseback Riding",
 				"row": 3,
-				"prerequisites": ["Chariots","The Wheel"],
+				"prerequisites": ["Chariots"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
