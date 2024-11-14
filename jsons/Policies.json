@@ -1,7 +1,199 @@
 [
+        {
+        "name": "Civic Tree",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 500,
+            "Cultural": 500,
+            "Diplomatic": 500,
+            "Domination": 500,
+            "Scientific": 500
+        },
+        "policies": [
+            {
+                "name": "Chiefdom",
+                "uniques": [
+                   "[+1 Culture] [in all cities]"
+                ],
+                "row": 1,
+                "column": 12
+            },
+            {
+                "name": "Militias",
+                "uniques": [
+                    "Free [Warrior] appears"
+                ],
+                "requires": ["Chiefdom"],
+                "row": 2,
+                "column": 8
+            },
+            {
+                "name": "Warrior Code",
+                "uniques": [
+                    "Gain [5] [Culture]<upon gaining a [Military] unit>"
+                ],
+                "requires": ["Chiefdom"],
+                "row": 2,
+                "column": 10
+            },
+            {
+                "name": "Food Reserves",
+                "uniques": [
+                    "[+1 Food] from all [Granary] buildings"
+                ],
+                "requires": ["Chiefdom"],
+                "row": 2,
+                "column": 14
+            },
+            {
+                "name": "Gift Giving",
+                "uniques": [
+                    "Gain [20] [Science]<upon declaring friendship>"
+                ],
+                "requires": ["Chiefdom"],
+                "row": 2,
+                "column": 16
+            },
+            {
+                "name": "Monarchy",
+                "uniques": [
+            "[+3 Culture] [in capital]",
+            "[-25]% Culture cost of natural border growth [in all cities]",                   
+                    "Only available<before adopting [Republic]>"
+                ],
+                "requires": ["Chiefdom"],
+                "row": 3,
+                "column": 10
+            },
+            {
+                "name": "Legal Systems",
+                "uniques": [
+            "[+1 Culture] from all [Palace] buildings","[+1 Culture] from all [Courthouse] buildings","Only available<if [Monument] is constructed in at least [2] of [in all cities] cities>"
+                ],
+                "row": 3,
+                "column": 12
+            },
+                        {
+                "name": "Public Works",
+                "uniques": [
+                                "[-10]% construction time for [All] improvements",
+                    "Free [Worker] appears",
+                    "Only available<when above [200] [Gold]>"
+                ],
+                "row": 3,
+                "column": 14
+            },
+            {
+                "name": "Republic",
+                "uniques": [
+                                "[+1 Culture] [in all cities]","[+1 Happiness, +1 Production] from each Trade Route",
+                    "Only available<before adopting [Monarchy]>"
+                ],
+                "row": 3,
+                "column": 14
+            },
+            {
+                "name": "Court Appointments",
+                "uniques": [
+            "[+2 Culture, +2 Gold] [in capital]",
+                ],
+                "requires": ["Monarchy"],
+                "row": 4,
+                "column": 4
+            },
+             {
+                "name": "Burial Tombs",
+                "uniques": [
+            "[+15]% Golden Age length",
+                ],
+                "requires": ["Monarchy"],
+                "row": 4,
+                "column": 6
+            },       
+            {
+                "name": "Royal Guard",
+                "uniques": [
+           "Free [Spearman] appears",
+                ],
+                "requires": ["Monarchy"],
+                "row": 4,
+                "column": 8
+            },  
+            {
+                "name": "God King",
+                "uniques": [
+            "[+2 Faith] [in capital]",
+                ],
+                "requires": ["Monarchy"],
+                "row": 4,
+                "column": 10
+            },  
+            {
+                "name": "Corvee Labour",
+                "uniques": [
+                                "May buy [Worker] units with [Food] for [1] times their normal Production cost",
+                    "Only available<when above [15] Happiness>"
+                ],
+                "row": 4,
+                "column": 12
+            },
+            {
+                "name": "State Architects",
+                "uniques": [
+                                "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "Only available<during a Golden Age>"
+                ],
+                "row": 4,
+                "column": 14
+            },
+            {
+                "name": "Citizenship",
+                "uniques": [
+            "[-33]% unhappiness from the number of cities",
+                ],
+                "requires": ["Republic"],
+                "row": 4,
+                "column": 16
+            },  
+            {
+                "name": "Property Laws",
+                "uniques": [
+            "[-10]% Unhappiness from [Population] [in all cities]",
+                ],
+                "requires": ["Republic"],
+                "row": 4,
+                "column": 18
+            },  
+            {
+                "name": "City States",
+                "uniques": [
+            "Allied City-States provide [Culture] equal to [+25]% of what they produce for themselves",
+                ],
+                "requires": ["Republic"],
+                "row": 4,
+                "column": 20
+            },
+                        {
+                "name": "Senate",
+                "uniques": [
+           "Free Great Person",
+                ],
+                "requires": ["Republic"],
+                "row": 4,
+                "column": 22
+            },
+            {
+                "name": "Civic Tree Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+                    "Provides a [Aqueduct] in your first [4] cities for free"
+                ]
+            }
+        ]
+    },
     {
         "name": "Tradition",
-        "era": "Ancient era",
+        "era": "Medieval era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -52,15 +244,6 @@
                 "column": 2
             },
             {
-                "name": "Monarchy",
-                "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
-                ],
-                "requires": ["Legalism"],
-                "row": 2,
-                "column": 4
-            },
-            {
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
@@ -71,7 +254,7 @@
     },
     {
         "name": "Liberty",
-        "era": "Ancient era",
+        "era": "Medieval era",
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
@@ -81,25 +264,6 @@
         },
         "uniques": ["[+1 Culture] [in all cities]"],
         "policies": [
-            {
-                "name": "Republic",
-                "uniques": [
-                    "[+1 Production] [in all cities]",
-                    "[+5]% Production when constructing [All] buildings [in all cities]",
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
-                "name": "Citizenship",
-                "uniques": [
-                    "[-25]% construction time for [All] improvements",
-                    "Free [Worker] appears",
-                    "[-100]% weight to this choice for AI decisions"
-                ],
-                "row": 1,
-                "column": 4
-            },
             {
                 "name": "Collective Rule",
                 "uniques": [
