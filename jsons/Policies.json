@@ -89,6 +89,7 @@
                                 "[+1 Culture] [in all cities]","[+1 Happiness, +1 Production] from each Trade Route",
                     "Only available<before adopting [Monarchy]>"
                 ],
+                "requires": ["Chiefdom"],
                 "row": 3,
                 "column": 16
             },
