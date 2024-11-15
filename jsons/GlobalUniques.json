@@ -1,6 +1,20 @@
 {
     "name": "Global uniques",
     "uniques": [
+        "[+1 Culture, +1 Science] from [All] tiles [in all cities]<for every adjacent [Great Barrier Reef]>",
+        "[+1 Happiness, +1 Science] from [All] tiles [in all cities]<for every adjacent [Old Faithful]>",
+        "[+1 Gold, +1 Production] from [All] tiles [in all cities]<for every adjacent [Grand Mesa]>",
+        "[+1 Faith, +1 Culture] from [All] tiles [in all cities]<for every adjacent [Mount Fuji]>",
+        "[+2 Science] from [All] tiles [in all cities]<for every adjacent [Krakatoa]>",
+        "[+1 Food, +1 Gold] from [All] tiles [in all cities]<for every adjacent [Rock of Gibraltar]>",
+        "[+2 Gold] from [All] tiles [in all cities]<for every adjacent [Cerro de Potosi]>",
+        "[+1 Science, +1 Gold] from [All] tiles [in all cities]<for every adjacent [Barringer Crater]>",
+        "[+1 Faith, +1 Happiness] from [All] tiles [in all cities]<for every adjacent [Mount Kailash]>",
+        "[+2 Faith] from [All] tiles [in all cities]<for every adjacent [Mount Sinai]>",
+        "[+1 Faith, +1 Food] from [All] tiles [in all cities]<for every adjacent [Sri Pada]>",
+        "[+1 Faith, +1 Production] from [All] tiles [in all cities]<for every adjacent [Uluru]>",
+
+
         "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
