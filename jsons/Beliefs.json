@@ -83,7 +83,7 @@
     {
         "name": "One with Nature",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [All] tiles [in cities following this religion]<with [1] to [6] neighboring [Natural Wonder] tiles>"]
+        "uniques": ["[+1 Faith] from [All] tiles [in all cities]<for every adjacent [Natural Wonder]>"]
     },
     {
         "name": "Oral Tradition",
