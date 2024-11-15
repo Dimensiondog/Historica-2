@@ -91,7 +91,6 @@
 	// Column 2
 	{
 		"name": "Stone Works",
-		"happiness": 1,
 		"production": 1,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
@@ -104,7 +103,6 @@
 	{
 		"name": "Lodge",
 		"happiness": 1,
-		"Food": 1,
 		"requiredNearbyImprovedResources": ["Furs", "Deer","Ivory","Truffles"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
@@ -117,8 +115,7 @@
 	},
 	{
 		"name": "Herbalist",
-		"happiness": 1,
-		"culture": 1,
+		"food": 1,
 		"requiredNearbyImprovedResources": ["Incense", "Wine","Spices","Sugar"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
@@ -223,9 +220,9 @@
 	},
 	{
 		"name": "Scribal Order",
-		"Science": 2,
-		"greatPersonPoints": {"Great Scientist": 2},
-		"uniques": ["[+1 Science] from every specialist [in this city]"],
+		"science": 1,
+		"specialistSlots": {"Scientist": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
 		"requiredTech": "Urbanisation",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
