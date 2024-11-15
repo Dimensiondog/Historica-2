@@ -3,8 +3,7 @@
         "name":"Meteor",
         "presentation":"Floating",
         "civilopediaText":[
-			{"text":"A Meteor has crashed near our empire!", "centered":true},
-		],    },
+			{"text":"A Meteor has crashed near our empire!", "centered":true} ]
 	"choices": [
             {
                 "text": "This is a good omen",
@@ -18,13 +17,13 @@
                 "text": "Our astronomers can learn from this",
                 "uniques": ["Gain [500]-[600] [Science]","Only Avaliable<if [Observatory] is constructed in at least [1] of [in all cities] cities>"]
             },
-        ]
+        ] },
 	    {
         "name":"Good Morale",
         "presentation":"Floating",
         "civilopediaText":[
 			{"text":"Military Success has improved morale", "centered":true},
-		],    },
+		],    
 	"choices": [
             {
                 "text": "Our Soldiers are revitalisied",
@@ -42,5 +41,5 @@
                 "text": "Buy war bonds",
                 "uniques": ["Gain [500]-[600] [Gold]","Only Avaliable<starting from the [Modern Era]>"]
             },
-        ]
+        ]},
 ]
