@@ -40,7 +40,7 @@
 		"buildingCostModifier": 0.67,
 		"policyCostModifier": 0.67,
 		"unhappinessModifier": 0.6,
-		"barbarianBonus": 0.5,
+		"barbarianBonus": 0.66,
 		"barbarianSpawnDelay": 5,
 		"playerBonusStartingUnits": [],
         "aiDifficultyLevel": "Chieftain",
@@ -115,7 +115,7 @@
 		"aiMajorCivBonusStartingUnits": [],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 1,
-		"aisExchangeTechs": true,
+		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 0,
 		"clearBarbarianCampReward": 25
 	},
