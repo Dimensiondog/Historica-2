@@ -1,7 +1,7 @@
 [
     {
         "name":"Meteor",
-        "presentation":"Floating",
+        "presentation":"Alert",
         "civilopediaText":[
 			{"text":"A Meteor has crashed near our empire!", "centered":true} ]
 	"choices": [
@@ -18,9 +18,56 @@
                 "uniques": ["Gain [500]-[600] [Science]","Only Avaliable<if [Observatory] is constructed in at least [1] of [in all cities] cities>"]
             },
         ] },
+    {
+        "name":"Ancient Culture",
+        "presentation":"Alert",
+        "civilopediaText":[
+			{"text":"Choose your Ancient culture!", "centered":true} ]
+	"choices": [
+            {
+                "text": "Akkad: First Empire",
+                "uniques": ["Gain a free [Courthouse] [in all cities]","[+10]% Strength<for [All] units><vs cities><when attacking>"]
+            },
+            {
+                "text": "Babylonia: Lawgiver",
+                "uniques": ["Free Social Policy","[-5]% Culture cost of adopting new Policies"]
+            },
+            {
+                "text": "Caral: Maritime Foundations",
+                "uniques": ["[+2 Food] from [Water resource] tiles [in all cities]","[+50]% [Gold] from Trade Routes"]
+            },
+	    {
+                "text": "Elam: Elamic Art",
+                "uniques": ["[+1 Culture] from [Pasture] tiles [in all cities]","[+1 Culture] from [{Mine}{Luxury resource}] tiles [in all cities]"]
+            },
+	    {
+                "text": "Harrapa: Trade Seals",
+                "uniques": ["[+2 Gold, +2 Culture] from each Trade Route"]
+            },
+	    {
+                "text": "Hittites: First to Iron",
+                "uniques": ["[+1 Production] from every [Strategic resource]","Double quantity of [Iron] produced"]
+            },
+	    {
+                "text": "Kerma: Royal Pyramids",
+                "uniques": ["[+1 Culture, +1 Faith] from all [Monument] buildings"]
+            },
+	    {
+                "text": "Minoa: Palatial Complexes",
+                "uniques": ["[-20]% Unhappiness from [Population] [in coastal cities]","[+2 Gold, +2 Happiness] from all [Wonder] buildings"]
+            },
+    	    {
+                "text": "Mycenea: Work of Cyclopses",
+                "uniques": ["[+2 Production] [in all cities]"]
+            },
+   	    {
+                "text": "Old Kingdom: Monument Builders",
+                "uniques": ["[+10]% Production when constructing [Wonder] buildings [in all cities]","Gain a free [Monument] [in all cities]"]
+            },
+        ] },
 	    {
         "name":"Good Morale",
-        "presentation":"Floating",
+        "presentation":"Alert",
         "civilopediaText":[
 			{"text":"Military Success has improved morale", "centered":true},
 		],    
