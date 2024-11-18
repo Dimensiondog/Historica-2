@@ -96,6 +96,13 @@
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
+				"name": "Trade",
+				"row": 5,
+				"prerequisites": ["The Wheel"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+			},
+			{
 				"name": "Urbanisation",
 				"row": 7,
 				"prerequisites": ["The Wheel","Masonry"],
@@ -119,36 +126,29 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Optics",
-				"row": 1,
+				"name": "Shipbuilding",
+				"row": 2,
 				"prerequisites": ["Sailing"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
-				"name": "Horseback Riding",
-				"row": 3,
-				"prerequisites": ["Chariots"],
-                "uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
-			},
-			{
-				"name": "Mathematics",
+				"name": "Diplomacy",
 				"row": 5,
-				"prerequisites": ["Urbanisation"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"prerequisites": ["Trade","Urbanisation"],
+				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
-				"name": "Writing",
-				"row": 7,
+				"name": "Drama and Poetry",
+				"row": 6,
 				"prerequisites": ["Urbanisation"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
 			{
-				"name": "Construction",
-				"row": 9,
-				"prerequisites": ["Bronze Working"],
+				"name": "Iron Working",
+				"row": 8,
+				"prerequisites": ["Bronze Working","Urbanisation"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			}
 		]
 	},
@@ -160,42 +160,76 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Philosophy",
-				"row": 2,
-				"prerequisites": ["Writing"],
-				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+				"name": "Horseback Riding",
+				"row": 3,
+				"prerequisites": ["Chariots"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
-				"name": "Drama and Poetry",
-				"row": 3,
-				"prerequisites": ["Writing"],
-				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+				"name": "Entertainment",
+				"row": 4,
+				"prerequisites": ["Chariots","Diplomacy"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
 				"name": "Currency",
-				"row": 7,
-				"prerequisites": ["Mathematics"],
+				"row": 5,
+				"prerequisites": ["Diplomacy"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
-				"name": "Engineering",
-				"row": 8,
-				"prerequisites": ["Mathematics","Construction"],
-				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
-				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+				"name": "Militarism",
+				"row": 7,
+				"prerequisites": ["Diplomacy","Drama and Poetry","Iron Working"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
-				"name": "Iron Working",
-				"row": 10,
-				"prerequisites": ["Bronze Working"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
-			}
+				"name": "Concrete",
+				"row": 7,
+				"prerequisites": ["Iron Working"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
 		]
 	},
 	{
 		"columnNumber": 5,
+		"era": "Classical era",
+		"techCost": 275,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+				{
+				"name": "Optics",
+				"row": 2,
+				"prerequisites": ["Shipbuilding"],
+				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+			},
+			{
+				"name": "Philosophy",
+				"row": 4,
+				"prerequisites": ["Entertainment"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+				{
+				"name": "Writing",
+				"row": 7,
+				"prerequisites": ["Entertainment","Currency","Militarism"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+			{
+				"name": "Engineering",
+				"row": 8,
+				"prerequisites": ["Militarism","Concrete"],
+				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
+				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+			},
+		]
+	},
+	{
+		"columnNumber": 6,
 		"era": "Medieval era",
 		"techCost": 275,
 		"buildingCost": 120,
@@ -204,34 +238,34 @@
 			{
 				"name": "Theology",
 				"row": 2,
-				"prerequisites": ["Philosophy", "Drama and Poetry"],
+				"prerequisites": ["Philosophy"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
 				"name": "Civil Service",
 				"row": 5,
-				"prerequisites": ["Currency","Horseback Riding","Drama and Poetry"],
+				"prerequisites": ["Currency","Horseback Riding","Writing"],
 				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
 				"name": "Guilds",
 				"row": 7,
-				"prerequisites": ["Currency"],
+				"prerequisites": ["Writing"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
 				"name": "Metal Casting",
 				"row": 9,
-				"prerequisites": ["Engineering","Iron Working"],
+				"prerequisites": ["Engineering"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			}
 		]
 	},
 	{
-		"columnNumber": 6,
+		"columnNumber": 7,
 		"era": "Medieval era",
 		"techCost": 485,
 		"buildingCost": 160,
@@ -282,7 +316,7 @@
 		]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 8,
 		"era": "Renaissance era",
 		"techCost": 780,
 		"buildingCost": 200,
@@ -326,7 +360,7 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 9,
 		"era": "Renaissance era",
 		"techCost": 1150,
 		"buildingCost": 250,
@@ -368,7 +402,7 @@
 		]
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 10,
 		"era": "Industrial era",
 		"techCost": 1600,
 		"buildingCost": 300,
@@ -418,7 +452,7 @@
 		]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 11,
 		"era": "Industrial era",
 		"techCost": 2350,
 		"buildingCost": 360,
@@ -454,7 +488,7 @@
 		]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 12,
 		"era": "Modern era",
 		"techCost": 3100,
 		"buildingCost": 500,
@@ -497,7 +531,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 13,
 		"era": "Modern era",
 		"techCost": 4100,
 		"buildingCost": 500,
@@ -532,7 +566,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 14,
 		"era": "Atomic era",
 		"techCost": 5100,
 		"buildingCost": 500,
@@ -567,7 +601,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 15,
 		"era": "Atomic era",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -601,7 +635,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 16,
 		"era": "Information era",
 		"techCost": 7700,
 		"buildingCost": 750,
@@ -649,7 +683,7 @@
 	},
 
 	{
-		"columnNumber": 16,
+		"columnNumber": 17,
 		"era": "Information era",
 		"techCost": 8800,
 		"buildingCost": 750,
@@ -691,7 +725,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 18,
 		"era": "Future era",
 		"techCost": 9500,
 		"buildingCost": 750,
