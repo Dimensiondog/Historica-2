@@ -150,7 +150,8 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-            "[-33]% unhappiness from the number of cities",
+            "[+25]% Production when constructing [Settler] units [in all cities]",
+                    "Free [Settler] appears",
                 ],
                 "requires": ["Republic"],
                 "row": 4,
@@ -159,16 +160,16 @@
             {
                 "name": "Property Laws",
                 "uniques": [
-            "[-10]% Unhappiness from [Population] [in all cities]",
+            "[-15]% Unhappiness from [Population] [in all cities]",
                 ],
                 "requires": ["Republic"],
                 "row": 4,
                 "column": 18
             },  
             {
-                "name": "City States",
+                "name": "Diplomatic League",
                 "uniques": [
-            "Allied City-States provide [Culture] equal to [+25]% of what they produce for themselves",
+           "Resting point for Influence with City-States is increased by [10]","Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
                 ],
                 "requires": ["Republic"],
                 "row": 4,
