@@ -207,6 +207,7 @@
 		"strength": 7,
 		"rangedStrength": 8,
 		"cost": 40,
+		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Quinquereme",
 		"obsoleteTech": "Shipbuilding",
