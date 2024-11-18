@@ -166,7 +166,7 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
-		"requiredTech": "Construction"
+		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Floating Gardens",
@@ -178,7 +178,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
-		"requiredTech": "Construction"
+		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Walls",
@@ -225,6 +225,13 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"requiredTech": "Urbanisation",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
+	},
+	{
+		"name": "Caravnsary",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["Only available<in [in all cities connected to capital] cities>"],
+		"requiredTech": "Trade"
 	},
 	{
 		"name": "Barracks",
@@ -294,7 +301,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Entertainment"
 	},
 	{
 		"name": "Courthouse",
@@ -302,7 +309,7 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Diplomacy"
 	},
 	{
 		"name": "Hanging Gardens",
@@ -310,7 +317,7 @@
 		"food": 6,
 		"culture": 1,
 		"isWonder": true,
-		"requiredTech": "Mathematics",
+		"requiredTech": "Concrete",
 		"uniques": ["Gain a free [Garden] [in this city]"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
@@ -319,14 +326,14 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Construction"
+		"requiredTech": "Entertainment"
 	},
 	{
 		"name": "Terracotta Army",
 		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"requiredTech": "Construction",
+		"requiredTech": "Militarism",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
 	// Column 4
@@ -419,6 +426,22 @@
 			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
+    	{
+        "name": "Jail",
+        "maintenance": 2,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <when espionage is enabled>", "[-15]% enemy spy effectiveness [in this city]"],
+        "requiredTech": "Diplomacy"
+    	},
+    	{
+        "name": "Bath",
+        "maintenance": 2,
+        "culture": 1,
+        "happiness": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Must be on [Fresh Water]","[+2 Gold, +2 Culture]<during a Golden Age>"],
+        "requiredTech": "Diplomacy"
+    	},
 	{
 		"name": "Mint",
 		"maintenance": 0,
@@ -460,7 +483,7 @@
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city"],
-		"requiredTech": "Iron Working"
+		"requiredTech": "Militarism"
 	},
 	{
 		"name": "Colossus",
@@ -470,7 +493,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
-		"requiredTech": "Iron Working",
+		"requiredTech": "Currency",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 
