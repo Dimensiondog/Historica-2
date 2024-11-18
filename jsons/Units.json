@@ -194,7 +194,7 @@
 		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "Shibuilding",
+		"requiredTech": "Shipbuilding",
 		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
 		"upgradesTo": "Galleass",
 		"obsoleteTech": "Astronomy",
@@ -209,7 +209,7 @@
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Quinquereme",
-		"obsoleteTech": "Shibuilding",
+		"obsoleteTech": "Shipbuilding",
 		"attackSound": "nonmetalhit"
 	},
 	{
