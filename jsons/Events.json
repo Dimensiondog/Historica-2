@@ -64,6 +64,22 @@
                 "text": "Old Kingdom: Monument Builders",
                 "uniques": ["[+10]% Production when constructing [Wonder] buildings [in all cities]<for [500] turns>","Gain a free [Monument] [in all cities]<for [500] turns>"]
             },
+   	    {
+                "text": "Olmec: Stone Gods",
+                "uniques": ["Units ignore terrain costs when moving into any tile with Hills<for [500] turns>","[+2 Faith] from [Quarry] tiles [in all cities]<for [500] turns>"]
+            },
+	    {
+                "text": "Pama Nyungan: Dreamtime",
+                "uniques": ["[+50]% Yield from every [resource]<for [500] turns>"]
+            },
+	    {
+                "text": "Shang: Oracle Bones",
+                "uniques": ["[+2 Faith] from [Pasture] tiles [in all cities]<for [500] turns>"]
+            },
+	    {
+                "text": "Sumeria: Land between the rivers",
+                "uniques": ["[+2 Food] from [{Farm}{River}] tiles [in all cities]<for [500] turns>"]
+            }
         ] },
 	    {
         "name":"Good Morale",
