@@ -187,7 +187,7 @@
 			},
 			{
 				"name": "Concrete",
-				"row": 7,
+				"row": 9,
 				"prerequisites": ["Iron Working"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
@@ -244,7 +244,7 @@
 			{
 				"name": "Civil Service",
 				"row": 5,
-				"prerequisites": ["Currency","Horseback Riding","Writing"],
+				"prerequisites": ["Horseback Riding","Writing"],
 				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
