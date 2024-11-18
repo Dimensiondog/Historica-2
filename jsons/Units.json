@@ -148,7 +148,7 @@
 		"cost": 40,
 		"requiredTech": "Carpentry",
 		"obsoleteTech": "Militarism",
-		"upgradesTo": "Crossbowman",
+		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
 	{
