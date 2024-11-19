@@ -1250,11 +1250,9 @@
 	{
 		"name": "Cathedral",
 		"cost": 0,
-		"faith": 1,
-		"culture": 3,
-		"happiness": 1,
-		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+		"faith": 2,
+		"gold": 2,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>","[+1 Gold] [in this city]<for every [10] [Owned [Land] Tiles]>"]
 	},
 	{
 		"name": "Monastery",
@@ -1266,19 +1264,65 @@
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
-		"name": "Mosque",
+		"name": "Church",
 		"cost": 0,
 		"culture": 2,
-		"faith": 3,
-		"happiness": 1,
+		"faith": 4,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mandir",
+		"cost": 0,
+		"food": 2,
+		"faith": 3,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>","[+10]% [Food] [in this city]"]
+	},
+	{
+		"name": "Mosque",
+		"cost": 0,
+		"science": 2,
+		"faith": 3,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>","[+15]% [Culture] [in this city]<during a Golden Age>"]
+	},
+	{
+		"name": "Order",
+		"cost": 0,
+		"faith": 2,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>","All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"]
+	},
+	{
+		"name": "Stupa",
+		"cost": 0,
+		"faith": 3,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>","All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"]
+	},
+	{
+		"name": "Synagogue",
+		"cost": 0,
+		"production": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>","[+10]% [Science] [in this city]<during We Love The King Day>"]
+	},
+	{
+		"name": "Meeting House",
+		"cost": 0,
+		"production": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>","[+34]% Natural religion spread [in this city]"]
 	},
 	{
 		"name": "Pagoda",
 		"cost": 0,
-		"culture": 2,
-		"faith": 2,
-		"happiness": 2,
+		"culture": 1,
+		"faith": 1,
+		"happiness": 1,
+		"production": 1,
+		"food": 1,
+		"science": 1,
+		"gold": 1,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	}
 ]
