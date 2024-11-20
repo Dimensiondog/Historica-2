@@ -30,7 +30,7 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "Gain [5] [Culture]<upon gaining a [Military] unit>"
+            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
                 ],
                 "requires": ["Chiefdom"],
                 "row": 2,
@@ -83,6 +83,25 @@
                 "row": 3,
                 "column": 14
             },
+                        {
+                "name": "Border Guards",
+                "uniques": [
+            "[+33]% Strength <vs [Barbarian] units>",
+            "Notified of new Barbarian encampments"
+                ],
+                "row": 3,
+                "column": 16
+            },
+            {
+                "name": "Organized Religion",
+                "uniques": [
+                    "[+1 Faith] from every [Shrine]",
+                    "[+1 Faith] from every [Temple]",
+                    "Only available<after founding a Pantheon>"
+                ],
+                "row": 3,
+                "column": 18
+            },
             {
                 "name": "Republic",
                 "uniques": [
@@ -91,7 +110,7 @@
                 ],
                 "requires": ["Chiefdom"],
                 "row": 3,
-                "column": 16
+                "column": 20
             },
             {
                 "name": "Court Appointments",
@@ -148,14 +167,23 @@
                 "column": 14
             },
             {
+                "name": "Military Caste",
+                "uniques": [
+                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
+                ],
+                "requires": ["Discipline"],
+                "row": 4,
+                "column": 16
+            },
+            {
                 "name": "Citizenship",
                 "uniques": [
-            "[+25]% Production when constructing [Settler] units [in all cities]",
+            "[+15]% Production when constructing [Settler] units [in all cities]",
                     "Free [Settler] appears",
                 ],
                 "requires": ["Republic"],
                 "row": 4,
-                "column": 16
+                "column": 20
             },  
             {
                 "name": "Property Laws",
@@ -164,7 +192,7 @@
                 ],
                 "requires": ["Republic"],
                 "row": 4,
-                "column": 18
+                "column": 22
             },  
             {
                 "name": "Diplomatic League",
@@ -173,7 +201,7 @@
                 ],
                 "requires": ["Republic"],
                 "row": 4,
-                "column": 20
+                "column": 24
             },
                         {
                 "name": "Senate",
@@ -182,14 +210,10 @@
                 ],
                 "requires": ["Republic"],
                 "row": 4,
-                "column": 22
+                "column": 26
             },
             {
                 "name": "Civic Tree Complete",
-                "uniques": [
-                    "[+15]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [4] cities for free"
-                ]
             }
         ]
     },
@@ -304,7 +328,7 @@
     },
     {
         "name": "Honor",
-        "era": "Ancient era",
+        "era": "Medieval era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -333,15 +357,6 @@
                 ],
                 "row": 2,
                 "column": 2
-            },
-            {
-                "name": "Military Caste",
-                "uniques": [
-                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
-                ],
-                "requires": ["Discipline"],
-                "row": 2,
-                "column": 4
             },
             {
                 "name": "Professional Army",
@@ -381,15 +396,6 @@
             "[-100]% weight to this choice for AI decisions <when religion is disabled>"
         ],
         "policies": [
-            {
-                "name": "Organized Religion",
-                "uniques": [
-                    "[+1 Faith] from every [Shrine]",
-                    "[+1 Faith] from every [Temple]"
-                ],
-                "row": 1,
-                "column": 2
-            },
             {
                 "name": "Mandate Of Heaven",
                 "uniques": ["[50]% of excess happiness converted to [Culture]"],
