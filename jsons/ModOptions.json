@@ -7,6 +7,7 @@
   ],
     "constants":
      {
+        "cityStrengthBase": 4.0,
         "maxLakeSize": 5,
         "baseCityBombardRange": 3,
         "cityWorkRange": 5,
