@@ -165,7 +165,7 @@
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
 		"uniques": ["Rough terrain",
-					"[+5] Strength for cities built on this terrain",
+					"[+2] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
 					"Occurs in groups around high elevations",
 					"[+1] to Fertility for Map Generation",
