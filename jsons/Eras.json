@@ -28,6 +28,7 @@
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 4,
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
         "startPercent": 10,
         "citySound": "cityClassical",
         "iconRGB": [233, 31, 99]
@@ -95,7 +96,6 @@
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
-            "Every major Civilization gains a spy once a civilization enters this era"
         ]
     },
     {
@@ -148,7 +148,6 @@
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
-            "Every major Civilization gains a spy once a civilization enters this era"
         ]
     },
     {
