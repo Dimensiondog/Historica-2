@@ -1,6 +1,8 @@
 {
     "name": "Global uniques",
     "uniques": [
+        "Adopt [Civic Tree]",
+        
         "[+1 Culture, +1 Science] from [All] tiles [in all cities]<in tiles adjacent to [Great Barrier Reef] tiles>",
         "[+1 Happiness, +1 Science] from [All] tiles [in all cities]<in tiles adjacent to [Old Faithful] tiles>",
         "[+1 Gold, +1 Production] from [All] tiles [in all cities]<in tiles adjacent to [Grand Mesa] tiles>",
