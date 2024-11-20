@@ -224,7 +224,6 @@
 		"specialistSlots": {"Scientist": 1},
 		"greatPersonPoints": {"Great Scientist": 1},
 		"requiredTech": "Urbanisation",
-		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
 	{
 		"name": "Caravnsary",
@@ -320,6 +319,29 @@
 		"requiredTech": "Concrete",
 		"uniques": ["Gain a free [Garden] [in this city]"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
+	},
+	{
+		"name": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"cost": 80,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Longhouse",
+		"replaces": "Workshop",
+		"uniqueTo": "Iroquois",
+		"cost": 80,
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
+		"requiredTech": "Iron Working"
 	},
 	{
 		"name": "Colosseum",
@@ -440,7 +462,7 @@
         "happiness": 1,
         "hurryCostModifier": 10,
         "uniques": ["Must be on [Fresh Water]","[+2 Gold, +2 Culture]<during a Golden Age>"],
-        "requiredTech": "Diplomacy"
+        "requiredTech": "Entertainment"
     	},
 	{
 		"name": "Mint",
@@ -566,27 +588,7 @@
 		"requiredTech": "Guilds",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
 	},
-	{
-		"name": "Workshop",
-		"maintenance": 2,
-		"production": 2,
-		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 10},
-		"requiredTech": "Metal Casting"
-	},
-	{
-		"name": "Longhouse",
-		"replaces": "Workshop",
-		"uniqueTo": "Iroquois",
-		"cost": 100,
-		"maintenance": 2,
-		"production": 2,
-		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
-		"requiredTech": "Metal Casting"
-	},
+
 	{
 		"name": "Forge",
 		"maintenance": 1,
