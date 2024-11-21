@@ -59,7 +59,7 @@
                 "uniques": [
             "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]",                   
-                    "Only available<before adopting [Republic]>"
+                    "Only available<before adopting [Republic]><when number of [Owned [All] Tiles] is more than [12]>"
                 ],
                 "requires": ["Chiefdom"],
                 "row": 3,
@@ -106,7 +106,7 @@
                 "name": "Republic",
                 "uniques": [
                                 "[+1 Culture] [in all cities]","[+1 Happiness, +1 Production] from each Trade Route",
-                    "Only available<before adopting [Monarchy]>"
+                    "Only available<before adopting [Monarchy]><when number of [Cities] is more than [1]>"
                 ],
                 "requires": ["Chiefdom"],
                 "row": 3,
