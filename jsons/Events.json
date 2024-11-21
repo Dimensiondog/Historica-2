@@ -74,7 +74,7 @@
             },
 	    {
                 "text": "Phoenicia: Traders of the Mediteraenean",
-                "uniques": ["[+1 Happiness] from [Luxury resource] tiles [in all cities]"]
+                "uniques": ["[+1 Happiness] from [Luxury resource] tiles [in all cities]<for [500] turns>"]
             },
 	    {
                 "text": "Shang: Oracle Bones",
