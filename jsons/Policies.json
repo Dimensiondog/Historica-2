@@ -58,7 +58,8 @@
                 "name": "Monarchy",
                 "uniques": [
             "[+3 Culture] [in capital]",
-            "[-25]% Culture cost of natural border growth [in all cities]",                   
+            "[-25]% Culture cost of natural border growth [in all cities]",
+                        "[+100]% weight to this choice for AI decisions",
                     "Only available<before adopting [Republic]><when number of [Owned [All] Tiles] is more than [12]>"
                 ],
                 "requires": ["Chiefdom"],
@@ -85,7 +86,7 @@
             },
                         {
                 "name": "Border Guards",
-                "uniques": [
+                "uniques": [                        "[+100]% weight to this choice for AI decisions",
             "[+33]% Strength <vs [Barbarian] units>",
             "Notified of new Barbarian encampments"
                 ],
@@ -104,7 +105,7 @@
             },
             {
                 "name": "Republic",
-                "uniques": [
+                "uniques": ["[+100]% weight to this choice for AI decisions",
                                 "[+1 Culture] [in all cities]","[+1 Happiness, +1 Production] from each Trade Route",
                     "Only available<before adopting [Monarchy]><when number of [Cities] is more than [1]>"
                 ],
@@ -177,7 +178,7 @@
             },
             {
                 "name": "Citizenship",
-                "uniques": [
+                "uniques": ["[+100]% weight to this choice for AI decisions",
             "[+15]% Production when constructing [Settler] units [in all cities]",
                     "Free [Settler] appears",
                 ],
@@ -187,7 +188,7 @@
             },  
             {
                 "name": "Property Laws",
-                "uniques": [
+                "uniques": ["[+50]% weight to this choice for AI decisions",
             "[-15]% Unhappiness from [Population] [in all cities]",
                 ],
                 "requires": ["Republic"],
