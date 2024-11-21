@@ -2,7 +2,7 @@
     "name": "Global uniques",
     "uniques": [
         "Adopt [Civic Tree]",
-        
+        "[+250]% Faith cost of generating Great Prophet equivalents",
         "[+1 Culture, +1 Science] from [All] tiles [in all cities]<in tiles adjacent to [Great Barrier Reef] tiles>",
         "[+1 Happiness, +1 Science] from [All] tiles [in all cities]<in tiles adjacent to [Old Faithful] tiles>",
         "[+1 Gold, +1 Production] from [All] tiles [in all cities]<in tiles adjacent to [Grand Mesa] tiles>",
@@ -10,7 +10,7 @@
         "[+2 Science] from [All] tiles [in all cities]<in tiles adjacent to [Krakatoa] tiles>",
         "[+1 Food, +1 Gold] from [All] tiles [in all cities]<in tiles adjacent to [Rock of Gibraltar] tiles>",
         "[+2 Gold] from [All] tiles [in all cities]<in tiles adjacent to [Cerro de Potosi] tiles>",
-        "[+1 Science, +1 Gold] from [All] tiles [in all cities]<in tiles adjacent to [Mount Kailash] tiles>",
+        "[+1 Science, +1 Gold] from [All] tiles [in all cities]<in tiles adjacent to [Barringer Crater] tiles>",
         "[+1 Faith, +1 Happiness] from [All] tiles [in all cities]<in tiles adjacent to [Mount Kailash] tiles>",
         "[+2 Faith] from [All] tiles [in all cities]<in tiles adjacent to [Mount Sinai] tiles>",
         "[+1 Faith, +1 Food] from [All] tiles [in all cities]<in tiles adjacent to [Sri Pada] tiles>",
