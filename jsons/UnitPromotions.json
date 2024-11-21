@@ -190,6 +190,11 @@
         "row": 1
 	},
 	{
+		"name": "Home Guard",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["[+20]% Strength decreasing with distance from the capital"]
+	},
+	{
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
