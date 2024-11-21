@@ -21,7 +21,7 @@
             {
                 "name": "Militias",
                 "uniques": [
-                    "Free [Warrior] appears"
+                        "[2] free [Warrior] units appear"
                 ],
                 "requires": ["Chiefdom"],
                 "row": 2,
@@ -115,7 +115,7 @@
             {
                 "name": "Court Appointments",
                 "uniques": [
-            "[+2 Culture, +2 Gold] [in capital]",
+                "[+1 Gold, +2 Culture] per [3] population [in capital]"
                 ],
                 "requires": ["Monarchy"],
                 "row": 4,
@@ -124,7 +124,7 @@
              {
                 "name": "Burial Tombs",
                 "uniques": [
-            "[+15]% Golden Age length",
+            "[+20]% Golden Age length",
                 ],
                 "requires": ["Monarchy"],
                 "row": 4,
@@ -133,7 +133,7 @@
             {
                 "name": "Royal Guard",
                 "uniques": [
-           "Free [Spearman] appears",
+                "[Land] units gain the [Home Guard] promotion"
                 ],
                 "requires": ["Monarchy"],
                 "row": 4,
@@ -142,7 +142,7 @@
             {
                 "name": "God King",
                 "uniques": [
-            "[+2 Faith] [in capital]",
+            "[+4 Faith] [in capital]",
                 ],
                 "requires": ["Monarchy"],
                 "row": 4,
