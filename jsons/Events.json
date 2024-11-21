@@ -73,6 +73,10 @@
                 "uniques": ["[+50]% Yield from every [resource]<for [500] turns>"]
             },
 	    {
+                "text": "Phoenicia: Traders of the Mediteraenean",
+                "uniques": ["[+1 Happiness] from [Luxury resource] tiles [in all cities]"]
+            },
+	    {
                 "text": "Shang: Oracle Bones",
                 "uniques": ["[+2 Faith] from [Pasture] tiles [in all cities]<for [500] turns>"]
             },
