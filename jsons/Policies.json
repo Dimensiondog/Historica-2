@@ -218,37 +218,107 @@
                 "name": "Absolutism",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
                                 "Empire enters a [2]-turn Golden Age<upon conquering a city>",
-                    "Only available<before adopting [Theocracy]><before adopting [Aristocracy]><before adopting [Merchant Republic]><when number of [[Annexed] Cities] is more than [0]><when number of [Culture] is more than [250]>"
+                    "Only available<before adopting [Theocracy]><before adopting [Aristocracy]><before adopting [Merchant Republic]><when number of [[Annexed] Cities] is more than [0]><when number of [Culture] is more than [350]>"
                 ],
-                "row": 7,
+                "row": 6,
                 "column": 6
             },
             {
                 "name": "Theocracy",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
                                 "[+25]% Natural religion spread [in all cities]","Religion naturally spreads to cities [3] tiles away",
-                    "Only available<before adopting [Absolutism]><before adopting [Aristocracy]><before adopting [Merchant Republic]><after founding a religion><when number of [Culture] is more than [250]>"
+                    "Only available<before adopting [Absolutism]><before adopting [Aristocracy]><before adopting [Merchant Republic]><after founding a religion><when number of [Culture] is more than [350]>"
                 ],
-                "row": 7,
+                "row": 6,
                 "column": 12
             },
             {
                 "name": "Aristocracy",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
                                "[2] Happiness from each type of luxury resource",
-                    "Only available<before adopting [Absolutism]><before adopting [Theocracy]><before adopting [Merchant Republic]><when above [20] Happiness><when number of [Culture] is more than [250]>"
+                    "Only available<before adopting [Absolutism]><before adopting [Theocracy]><before adopting [Merchant Republic]><when above [20] Happiness><when number of [Culture] is more than [350]>"
                 ],
-                "row": 7,
+                "row": 6,
                 "column": 24
             },
             {
                 "name": "Merchant Republic",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
                                 "Retain [+100]% of the happiness from a luxury after the last copy has been traded away","[+20]% of excess happiness converted to [Gold]",
-                    "Only available<before adopting [Absolutism]><before adopting [Theocracy]><before adopting [Aristocracy]><when number of [[Gold] Buildings] is more than [10]><when number of [Culture] is more than [250]>"
+                    "Only available<before adopting [Absolutism]><before adopting [Theocracy]><before adopting [Aristocracy]><when number of [[Gold] Buildings] is more than [7]><when number of [Culture] is more than [350]>"
                 ],
-                "row": 7,
+                "row": 6,
                 "column": 32
+            },
+            {
+                "name": "Provinces",
+                "uniques": [
+           "[+3 Gold, +3 Culture, +3 Happiness] from all [Courthouse] buildings",
+                ],
+                "requires": ["Absolutism"],
+                "row": 7,
+                "column": 2
+            },
+            {
+                "name": "Tribute",
+                "uniques": [
+           "Allied City-States provide [Gold] equal to [+50]% of what they produce for themselves",
+                        "Allied City-States provide [Culture] equal to [+50]% of what they produce for themselves",
+                        "Allied City-States provide [Faith] equal to [+50]% of what they produce for themselves",
+                        "Allied City-States provide [Science] equal to [+50]% of what they produce for themselves"
+                ],
+                "requires": ["Absolutism"],
+                "row": 7,
+                "column": 4
+            },
+            {
+                "name": "Spoils of war",
+                "uniques": [
+           "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+           "Upon capturing a city, receive [10] times its [Faith] production as [Faith] immediately",
+           "Upon capturing a city, receive [10] times its [Science] production as [Science] immediately",
+           "Upon capturing a city, receive [10] times its [Gold] production as [GOld] immediately",
+
+                ],
+                "requires": ["Absolutism"],
+                "row": 7,
+                "column": 8
+            },
+            {
+                "name": "Inquisition",
+                "uniques": [
+           "Can remove other religions from cities<[1] additional time(s)><for [Inquisitor] units>","[Faith] cost of purchasing [Inquisitor] units [-33]%"
+                ],
+                "requires": ["Theocracy"],
+                "row": 7,
+                "column": 12
+            },
+       {
+                "name": "Divine Appointments",
+                "uniques": [
+           "Free Great Person<upon declaring war with a major Civilization>"
+                ],
+                "requires": ["Theocracy"],
+                "row": 7,
+                "column": 14
+            },
+       {
+                "name": "Ecclesial Devotion",
+                "uniques": [
+           "[+33]% Yield from every [Land]<with [1] to [6] neighboring [Holy Site] tiles>"
+                ],
+                "requires": ["Theocracy"],
+                "row": 7,
+                "column": 14
+            },
+       {
+                "name": "Holy War",
+                "uniques": [
+           "Earn [25]% of killed [Military] unit's [Strength] as [Faith]"
+                ],
+                "requires": ["Theocracy"],
+                "row": 7,
+                "column": 14
             },
             {
                 "name": "Civic Tree Complete",
