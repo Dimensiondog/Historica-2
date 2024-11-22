@@ -277,7 +277,7 @@
            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
            "Upon capturing a city, receive [10] times its [Faith] production as [Faith] immediately",
            "Upon capturing a city, receive [10] times its [Science] production as [Science] immediately",
-           "Upon capturing a city, receive [10] times its [Gold] production as [GOld] immediately",
+           "Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately",
 
                 ],
                 "requires": ["Absolutism"],
@@ -287,7 +287,7 @@
             {
                 "name": "Inquisition",
                 "uniques": [
-           "Can remove other religions from cities<[1] additional time(s)><for [Inquisitor] units>","[Faith] cost of purchasing [Inquisitor] units [-33]%"
+           "[Faith] cost of purchasing [Inquisitor] units [-33]%"
                 ],
                 "requires": ["Theocracy"],
                 "row": 7,
@@ -309,7 +309,7 @@
                 ],
                 "requires": ["Theocracy"],
                 "row": 7,
-                "column": 14
+                "column": 16
             },
        {
                 "name": "Holy War",
@@ -318,7 +318,7 @@
                 ],
                 "requires": ["Theocracy"],
                 "row": 7,
-                "column": 14
+                "column": 18
             },
             {
                 "name": "Civic Tree Complete",
