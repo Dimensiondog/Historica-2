@@ -2,7 +2,7 @@
     "name": "Global uniques",
     "uniques": [
         "Adopt [Civic Tree]",
-        "[+250]% Faith cost of generating Great Prophet equivalents",
+        "[+150]% Faith cost of generating Great Prophet equivalents",
         "[+1 Culture, +1 Science] from [All] tiles [in all cities]<in tiles adjacent to [Great Barrier Reef] tiles>",
         "[+1 Happiness, +1 Science] from [All] tiles [in all cities]<in tiles adjacent to [Old Faithful] tiles>",
         "[+1 Gold, +1 Production] from [All] tiles [in all cities]<in tiles adjacent to [Grand Mesa] tiles>",
@@ -15,8 +15,10 @@
         "[+2 Faith] from [All] tiles [in all cities]<in tiles adjacent to [Mount Sinai] tiles>",
         "[+1 Faith, +1 Food] from [All] tiles [in all cities]<in tiles adjacent to [Sri Pada] tiles>",
         "[+1 Faith, +1 Production] from [All] tiles [in all cities]<in tiles adjacent to [Uluru] tiles>",
-        "Triggers a [Ancient Culture] event<upon entering the [Ancient era]>"
-
+        
+        "Triggers a [Ancient Culture] event<upon entering the [Ancient era]>",
+        "Triggers a [Classical Culture] event<upon entering the [Classical era]>",
+        
         "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
