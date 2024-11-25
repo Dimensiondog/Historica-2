@@ -8,12 +8,12 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith]<for every [3] [Owned [Tundra] Tiles]>"]
+        "uniques": ["[+1 Faith] from [Tundra] tiles [in all cities]"]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith]<for every [3] [Owned [Desert] Tiles]>"]
+        "uniques": ["[+1 Faith] from [Desert] tiles [in all cities]"]
     },
     {
         "name": "Goddess of Conquest",
@@ -103,12 +103,12 @@
     {
         "name": "Sacred Path",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith]<for every [3] [Owned [Jungle] Tiles]>"]
+        "uniques": ["[+1 Faith] from [Jungle] tiles [in all cities]"]
     },
     {
         "name": "Sacred Waters",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith]<for every [3] [Owned [River] Tiles]>"]
+        "uniques": ["[+1 Faith] from [{Farm}{River}] tiles [in all cities]"]
     },
     {
         "name": "Stone Circles",
