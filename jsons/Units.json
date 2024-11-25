@@ -561,7 +561,10 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking",
+			"No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", 
+			"[+10]% Strength bonus for [All] units within [2] tiles<after adopting [Chivalry]>",
+			"Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
