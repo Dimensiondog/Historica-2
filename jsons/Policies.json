@@ -218,7 +218,7 @@
                 "name": "Absolutism",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
                                 "Empire enters a [2]-turn Golden Age<upon conquering a city>",
-                    "Only available<before adopting [Theocracy]><before adopting [Aristocracy]><before adopting [Merchant Republic]><when number of [[Annexed] Cities] is more than [0]><when number of [Culture] is more than [350]>"
+                    "Only available<before adopting [Theocracy]><before adopting [Aristocracy]><before adopting [Merchant Republic]><when number of [[Annexed] Cities] is more than [0]><when number of [Culture] is more than [500]>"
                 ],
                 "row": 6,
                 "column": 6
@@ -227,7 +227,7 @@
                 "name": "Theocracy",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
                                 "[+25]% Natural religion spread [in all cities]","Religion naturally spreads to cities [3] tiles away",
-                    "Only available<before adopting [Absolutism]><before adopting [Aristocracy]><before adopting [Merchant Republic]><after founding a religion><when number of [Culture] is more than [350]>"
+                    "Only available<before adopting [Absolutism]><before adopting [Aristocracy]><before adopting [Merchant Republic]><after founding a religion><when number of [Culture] is more than [500]>"
                 ],
                 "row": 6,
                 "column": 12
@@ -236,7 +236,7 @@
                 "name": "Aristocracy",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
                                "[2] Happiness from each type of luxury resource",
-                    "Only available<before adopting [Absolutism]><before adopting [Theocracy]><before adopting [Merchant Republic]><when above [20] Happiness><when number of [Culture] is more than [350]>"
+                    "Only available<before adopting [Absolutism]><before adopting [Theocracy]><before adopting [Merchant Republic]><when above [20] Happiness><when number of [Culture] is more than [500]>"
                 ],
                 "row": 6,
                 "column": 24
@@ -245,7 +245,7 @@
                 "name": "Merchant Republic",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
                                 "Retain [+100]% of the happiness from a luxury after the last copy has been traded away","[+20]% of excess happiness converted to [Gold]",
-                    "Only available<before adopting [Absolutism]><before adopting [Theocracy]><before adopting [Aristocracy]><when number of [[Gold] Buildings] is more than [7]><when number of [Culture] is more than [350]>"
+                    "Only available<before adopting [Absolutism]><before adopting [Theocracy]><before adopting [Aristocracy]><when number of [[Gold] Buildings] is more than [7]><when number of [Culture] is more than [500]>"
                 ],
                 "row": 6,
                 "column": 32
@@ -319,6 +319,82 @@
                 "requires": ["Theocracy"],
                 "row": 7,
                 "column": 18
+            },
+       {
+                "name": "Feudalism",
+                "uniques": ["[+2 Gold, +2 Production, +2 Culture, +2 Faith] from all [Castle] buildings",
+                "[-10]% construction time for [All] improvements",
+                ],
+                "requires": ["Aristocracy"],
+                "row": 7,
+                "column": 22
+            },
+       {
+                "name": "Noble Appointments",
+                "uniques": [
+                        "[+1 Gold] from every [Merchant]", 
+                        "[+1 Science] from every [Scientist]",
+                        "[+1 Production] from every [Engineer]",
+                        "[+1 Culture] from every [Artist]"
+                ],
+                "requires": ["Aristocracy"],
+                "row": 7,
+                "column": 24
+            },
+       {
+                "name": "Fashionable Society",
+                "uniques": [
+           "[+1 Culture] from all [Culture] buildings", "[+1 Culture] from all [Happiness] buildings"
+                ],
+                "requires": ["Aristocracy"],
+                "row": 7,
+                "column": 26
+            },
+       {
+                "name": "Chivalry",
+               // chivalry's effect is on knights
+                "uniques": [                ],
+                "requires": ["Aristocracy"],
+                "row": 7,
+                "column": 28
+            },
+       {
+                "name": "Merchant Guilds",
+                "uniques": [
+           "[+1 Gold] from every specialist [in all cities]", "[+10]% Great Person generation [in all cities]"
+                ],
+                "requires": ["Merchant Republic"],
+                "row": 7,
+                "column": 32
+            },
+       {
+                "name": "Trade Colonies",
+                "uniques": [
+            "Gain [200] [Gold]<upon founding a city>"
+                ],
+                "requires": ["Merchant Republic"],
+                "row": 7,
+                "column": 34
+            },
+       {
+                "name": "Merchant Appointments",
+                "uniques": ["Free [Great Merchant] appears",
+           "[+100]% Gold from Great Merchant trade missions",
+                ],
+                "requires": ["Merchant Republic"],
+                "row": 7,
+                "column": 36
+            },
+       {
+                "name": "Thassalocracy",
+                "uniques": [
+           "City-State territory always counts as friendly territory<for [Water] units>", 
+           "[10] HP when healing<for [Water] units>",
+           "[2] Sight<for [Water] units>"
+                ],
+                "requires": ["Merchant Republic"],
+                "row": 7,
+                "column": 38
             },
             {
                 "name": "Civic Tree Complete",
