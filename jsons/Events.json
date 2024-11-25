@@ -93,7 +93,7 @@
 	"choices": [
             {
                 "text": "Athens: First Democracy",
-                "uniques": ["Adopt [Republic]<for [500] turns>","Adopt [City States]<for [500] turns>"]
+                "uniques": ["Adopt [Republic]","Adopt [Diplomatic League]"]
             },
             {
                 "text": "Assyria: Repopulation",
