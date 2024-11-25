@@ -85,6 +85,21 @@
                 "uniques": ["[+2 Food] from [{Farm}{River}] tiles [in all cities]<for [500] turns>"]
             }
         ] },
+    {
+        "name":"Classical Culture",
+        "presentation":"Alert",
+        "civilopediaText":[
+			{"text":"Choose your Classical culture!", "centered":true} ]
+	"choices": [
+            {
+                "text": "Athens: First Democracy",
+                "uniques": ["Adopt [Republic]<for [500] turns>","Adopt [City States]<for [500] turns>"]
+            },
+            {
+                "text": "Assyria: Repopulation",
+                "uniques": ["[3] population in a random city<upon conquering a city>","[-5]% Culture cost of adopting new Policies<for [500] turns>"]
+            },
+        ] },
 	    {
         "name":"Good Morale",
         "presentation":"Alert",
