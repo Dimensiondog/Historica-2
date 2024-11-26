@@ -23,7 +23,7 @@
 	},
 	{
 		"name": "Well",
-		"Food": 2,
+		"food": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
