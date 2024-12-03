@@ -93,11 +93,19 @@
 	"choices": [
             {
                 "text": "Athens: First Democracy",
-                "uniques": ["Adopt [Republic]","Adopt [Diplomatic League]"]
+                "uniques": ["Adopt [Republic]","Adopt [Diplomatic League]","Only available<before adopting [Monarchy]><before adopting [Republic]>"]
             },
             {
                 "text": "Assyria: Repopulation",
                 "uniques": ["[3] population in a random city<upon conquering a city>","[-5]% Culture cost of adopting new Policies<for [500] turns>"]
+            },
+            {
+                "text": "Carthage: Cothons",
+                "uniques": ["Gain a free [Cothon] [in all coastal cities]<for [500] turns>"]
+            },
+            {
+                "text": "Huns: Scourge of God",
+                "uniques": ["May capture killed [Barbarian] units<for [Mounted] units><for [500] turns>"]
             },
         ] },
 	    {
