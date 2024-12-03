@@ -1326,5 +1326,11 @@
 		"science": 1,
 		"gold": 1,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Cothon",
+		"cost": 0,
+		"uniques": ["Unbuildable", "[Water] Units adjacent to this city heal [20] HP per turn when healing",
+"[+20]% Production when constructing [Water] units [in this city]","[+20]% Production when constructing [Civilian] units [in this city]"]
 	}
 ]
