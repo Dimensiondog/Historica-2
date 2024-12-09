@@ -214,6 +214,24 @@
                 "row": 4,
                 "column": 26
             },
+                        {
+                "name": "Public Forums",
+                "uniques": [
+                                "Provides the cheapest [Culture] building in your first [4] cities for free",
+                    "Only available<when above [200] [Gold]>"
+                ],
+                "row": 5,
+                "column": 2
+            },
+                        {
+                "name": "Oracle Consultation",
+                "uniques": [
+                                "Gain [30] [Faith]<upon adopting [All]>",
+                    "Only available<before founding a religion>"
+                ],
+                "row": 5,
+                "column": 4
+            },
             {
                 "name": "Absolutism",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
@@ -416,14 +434,6 @@
             "[-25]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
-            {
-                "name": "Legalism",
-                "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
-                ],
-                "row": 1,
-                "column": 3
-            },
             {
                 "name": "Oligarchy",
                 "uniques": [
