@@ -226,7 +226,7 @@
                         {
                 "name": "Oracle Consultation",
                 "uniques": [
-                                "Gain [30] [Faith]<upon adopting [All]>",
+                                "Gain [100] [Faith]<upon entering a Golden Age>",
                     "Only available<before founding a religion>"
                 ],
                 "row": 5,
