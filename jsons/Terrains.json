@@ -144,6 +144,7 @@
 		"defenceBonus": 0.25,
 		"RGB": [102, 102, 102],
 		"uniques": ["Rough terrain",
+		"Becomes [Riverina] when adjacent to [River]",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
             "Units ending their turn on this terrain take [50] damage",
