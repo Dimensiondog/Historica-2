@@ -16,7 +16,7 @@
         "spyRankSkillPercentBonus": 15,        
         "baseTurnsUntilRevolt": 2,
         "riverCountMultiplier": 0.01,
-        "minRiverLength": 10,
+        "minRiverLength": 4,
         "pantheonBase": 25,
         "pantheonGrowth": 0
     },
