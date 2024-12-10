@@ -450,7 +450,6 @@
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Legalism"],
                 "row": 2,
                 "column": 2
             },
