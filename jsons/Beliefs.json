@@ -212,6 +212,16 @@
         "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
     },
     {
+        "name": "Sainthood",
+        "type": "Follower",
+        "uniques": ["Gain [50] [Faith]<upon gaining a [Great Person] unit>"]
+    },
+    {
+        "name": "Shrines of the Kami",
+        "type": "Follower",
+        "uniques": ["[+3 Faith, +3 Culture] from all [Shrine] buildings"]
+    },
+    {
         "name": "Stupas",
         "type": "Follower",
         "uniques": ["May buy [Stupa] buildings with [Faith] [in cities following this religion]"]
@@ -226,6 +236,11 @@
         "type": "Follower",
         "uniques": ["May buy [Synagogue] buildings with [Faith] [in cities following this religion]"]
     },
+    {
+        "name": "Vipassana",
+        "type": "Follower",
+        "uniques": ["[+2 Faith, +1 Happiness] per [4] population [in cities following this religion]"]
+    },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 
     {
@@ -237,6 +252,11 @@
         "name": "Church Property",
         "type": "Founder",
         "uniques": ["[+2 Gold] for each global city following this religion"]
+    },
+    {
+        "name": "Ecumene",
+        "type": "Founder",
+        "uniques": ["[+1 Faith] from every [4] global followers [in non-enemy foreign cities]"]
     },
     {
         "name": "Initiation Rites",
@@ -275,7 +295,11 @@
     },
 
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
-
+    {
+        "name": "Dawah",
+        "type": "Enhancer",
+        "uniques": ["Can Spread Religion<[1] additional time(s)>"]
+    },
     {
         "name": "Defender of the Faith",
         "type": "Enhancer",
@@ -309,6 +333,11 @@
         "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
     },
     {
+        "name": "Reincarnation",
+        "type": "Enhancer",
+        "uniques": ["Gain enough Faith for [25]% of a Great Prophet<upon expending a [Great Prophet] unit>"]
+    },
+    {
         "name": "Religious Texts",
         "type": "Enhancer",
         "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
@@ -322,5 +351,11 @@
         "name": "Reliquary",
         "type": "Enhancer",
         "uniques": ["Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
-    }
+    },
+    {
+        "name": "Stella Maris",
+        "type": "Enhancer",
+        "uniques": ["[2] Movement<for [Missionary] units>","[1] Sight<for [Missionary] units>",
+            "[1] Movement point cost to disembark<for [Missionary] units>","[1] Movement point cost to embark<for [Missionary] units>"]
+    },
 ]
