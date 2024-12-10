@@ -298,7 +298,7 @@
     {
         "name": "Dawah",
         "type": "Enhancer",
-        "uniques": ["Can Spread Religion<[1] additional time(s)>"]
+        "uniques": ["Can Spread Religion<[1] additional time(s)><for [Missionary] units>"]
     },
     {
         "name": "Defender of the Faith",
