@@ -443,12 +443,7 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[-50]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] from every [Walls]",
-                    "[+1 Happiness] from every [Castle]",
-                    "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]"
                 ],
-                "requires": ["Military Caste"],
                 "row": 8,
                 "column": 6
             },
@@ -457,6 +452,17 @@
                 "uniques": ["[-10]% Unhappiness from [Followers of this Religion] [in cities following our religion]"],
                 "row": 8,
                 "column": 8
+            },
+            {
+                "name": "Castles",
+                "uniques": [
+                    "[+1 Happiness] from every [Walls]",
+                    "[+1 Happiness] from every [Castle]",
+                    "[+1 Happiness] from every [Arsenal]",
+                    "[+1 Happiness] from every [Military Base]"
+                ],
+                "row": 8,
+                "column": 10
             },
             {
                 "name": "Civic Tree Complete",
@@ -624,7 +630,7 @@
             {
                 "name": "Free Religion",
                 "uniques": ["[-10]% Culture cost of adopting new Policies"],
-                "requires": ["Mandate Of Heaven", "Reformation"],
+                "requires": ["Reformation"],
                 "row": 3,
                 "column": 4
             },
