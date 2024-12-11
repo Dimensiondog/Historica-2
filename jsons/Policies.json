@@ -232,6 +232,14 @@
                 "row": 5,
                 "column": 4
             },
+                        {
+                "name": "Cultural Centres",
+                "uniques": [
+                                "[+20]% [Culture] [in all cities with a world wonder]"
+                ],
+                "row": 5,
+                "column": 6
+            },
             {
                 "name": "Absolutism",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
@@ -413,6 +421,23 @@
                 "requires": ["Merchant Republic"],
                 "row": 7,
                 "column": 38
+            },
+            {
+                "name": "Diplomatic Marriage",
+                "uniques": [
+                                "Can spend Gold to annex or puppet a City-State that has been your ally for [20] turns.<before the [Industrial era]>",
+                        "Only available<during the [Medieval era]>"
+                ],
+                "row": 5,
+                "column": 2
+            },
+            {
+                "name": "State Examinations",
+                "uniques": [ "[+17]% [Culture] [in all cities]<if [University] is constructed>",
+                                "Only available<if [University] is constructed in at least [1] of [in all cities] cities>"
+                ],
+                "row": 5,
+                "column": 4
             },
             {
                 "name": "Civic Tree Complete",
