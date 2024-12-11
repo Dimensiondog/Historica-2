@@ -428,7 +428,7 @@
                                 "Can spend Gold to annex or puppet a City-State that has been your ally for [20] turns.<before the [Industrial era]>",
                         "Only available<during the [Medieval era]>"
                 ],
-                "row": 5,
+                "row": 8,
                 "column": 2
             },
             {
@@ -436,8 +436,27 @@
                 "uniques": [ "[+17]% [Culture] [in all cities]<if [University] is constructed>",
                                 "Only available<if [University] is constructed in at least [1] of [in all cities] cities>"
                 ],
-                "row": 5,
+                "row": 8,
                 "column": 4
+            },
+            {
+                "name": "Professional Army",
+                "uniques": [
+                    "[-50]% Gold cost of upgrading <for [Military] units>",
+                    "[+1 Happiness] from every [Walls]",
+                    "[+1 Happiness] from every [Castle]",
+                    "[+1 Happiness] from every [Arsenal]",
+                    "[+1 Happiness] from every [Military Base]"
+                ],
+                "requires": ["Military Caste"],
+                "row": 8,
+                "column": 6
+            },
+            {
+                "name": "Divine Right",
+                "uniques": ["[-10]% Unhappiness from [Followers of this Religion] [in cities following our religion]"],
+                "row": 8,
+                "column": 8
             },
             {
                 "name": "Civic Tree Complete",
@@ -568,19 +587,6 @@
                 "column": 2
             },
             {
-                "name": "Professional Army",
-                "uniques": [
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] from every [Walls]",
-                    "[+1 Happiness] from every [Castle]",
-                    "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]"
-                ],
-                "requires": ["Military Caste"],
-                "row": 3,
-                "column": 4
-            },
-            {
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
@@ -605,12 +611,6 @@
             "[-100]% weight to this choice for AI decisions <when religion is disabled>"
         ],
         "policies": [
-            {
-                "name": "Mandate Of Heaven",
-                "uniques": ["[50]% of excess happiness converted to [Culture]"],
-                "row": 1,
-                "column": 5
-            },
             {
                 "name": "Reformation",
                 "uniques": [
