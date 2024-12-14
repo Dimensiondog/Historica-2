@@ -443,7 +443,7 @@
             },
             {
                 "name": "State Examinations",
-                "uniques": [ "[+17]% [Culture] [in all cities]<if [University] is constructed>",
+                "uniques": [ "[+17]% [Science] [in all cities]<if [University] is constructed>",
                                 "Only available<if [University] is constructed in at least [1] of [in all cities] cities><starting from the [Medieval era]>"
                 ],
                 "row": 8,
@@ -461,7 +461,10 @@
             },
             {
                 "name": "Divine Right",
-                "uniques": ["[-10]% Unhappiness from [Followers of the Majority Religion] [in all cities in which the majority religion is a major religion]"],
+                "uniques": ["[-10]% Unhappiness from [Followers of the Majority Religion] [in all cities in which the majority religion is a major religion]",
+                 "Only available<starting from the [Medieval era]>"
+                ],
+                    
                 "row": 8,
                 "column": 8
             },
