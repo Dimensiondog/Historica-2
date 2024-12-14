@@ -218,7 +218,7 @@
                 "name": "Public Forums",
                 "uniques": [
                                 "Provides the cheapest [Culture] building in your first [4] cities for free",
-                    "Only available<when above [200] [Gold]>"
+                    "Only available<when above [200] [Gold]><starting from the [Classical era]>"
                 ],
                 "row": 5,
                 "column": 2
@@ -227,18 +227,28 @@
                 "name": "Oracle Consultation",
                 "uniques": [
                                 "Gain [100] [Faith]<upon entering a Golden Age>",
-                    "Only available<before founding a religion>"
+                    "Only available<before founding a religion><starting from the [Classical era]>"
                 ],
                 "row": 5,
                 "column": 4
             },
-                        {
+              {
                 "name": "Cultural Centres",
                 "uniques": [
-                                "[+20]% [Culture] [in all cities with a world wonder]"
+                                "[+20]% [Culture] [in all cities with a world wonder]",
+                        "Only available<if [Wonder] is constructed in at least [1] of [in all cities] cities><starting from the [Classical era]>"
                 ],
                 "row": 5,
                 "column": 6
+            },
+              {
+                "name": "Caste System",
+                "uniques": [
+                                "[+1 Culture] from every specialist [in all cities]",
+                        "Only available<starting from the [Classical era]>"
+                ],
+                "row": 5,
+                "column": 8
             },
             {
                 "name": "Absolutism",
@@ -434,7 +444,7 @@
             {
                 "name": "State Examinations",
                 "uniques": [ "[+17]% [Culture] [in all cities]<if [University] is constructed>",
-                                "Only available<if [University] is constructed in at least [1] of [in all cities] cities>"
+                                "Only available<if [University] is constructed in at least [1] of [in all cities] cities><starting from the [Medieval era]>"
                 ],
                 "row": 8,
                 "column": 4
@@ -442,14 +452,16 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "[-50]% Gold cost of upgrading <for [Military] units>",
+                    "[-50]% Gold cost of upgrading <for [{Military}{Land}] units>",
+                "Only available<when number of [[{Military}{Land}] Units] is more than [9]><starting from the [Medieval era]>"
+
                 ],
                 "row": 8,
                 "column": 6
             },
             {
                 "name": "Divine Right",
-                "uniques": ["[-10]% Unhappiness from [Followers of this Religion] [in cities following our religion]"],
+                "uniques": ["[-10]% Unhappiness from [Followers of the Majority Religion] [in all cities in which the majority religion is a major religion]"],
                 "row": 8,
                 "column": 8
             },
@@ -459,7 +471,8 @@
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
                     "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]"
+                    "[+1 Happiness] from every [Military Base]",
+                "Only available<if [Castle] is constructed in at least [1] of [in all cities] cities><starting from the [Medieval era]>",
                 ],
                 "row": 8,
                 "column": 10
