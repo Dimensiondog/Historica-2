@@ -69,7 +69,7 @@
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast","Riverina"],
+		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
@@ -407,7 +407,7 @@
 	{
 		"name": "Pearls",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast","Riverina"],
+		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
 		"happiness": 1,
 		"improvement": "Fishing Boats",
@@ -479,7 +479,7 @@
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast","Riverina"],
+		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"gold": 1,
 		"happiness": 1,
