@@ -588,7 +588,14 @@
 		"requiredTech": "Guilds",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
 	},
-
+	{
+		"name": "Tavern",
+		"happiness": 2,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Guilds"
+	},
 	{
 		"name": "Forge",
 		"maintenance": 1,
