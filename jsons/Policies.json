@@ -250,6 +250,33 @@
                 "row": 5,
                 "column": 8
             },
+{
+                "name": "Limitanei",
+                "uniques": [
+                         "[+33]% Strength for cities<in cities with less than [4] [Population]>",       
+                        "Only available<starting from the [Classical era]><if [Barracks] is constructed in at least [3] of [in all cities] cities>"
+                ],
+                "row": 5,
+                "column": 10
+            },
+          {
+                "name": "Insulae",
+                "uniques": [
+                                "[+25]% growth [in all cities]",
+                        "Only available<starting from the [Classical era]>"
+                ],
+                "row": 5,
+                "column": 12
+            },
+                {
+                "name": "Natural Philosophy",
+                "uniques": ["[+2 Science] from all [Scribal Order] buildings",
+                                "[+2 Science] from all [Library] buildings",
+                        "Only available<starting from the [Classical era]>"
+                ],
+                "row": 5,
+                "column": 8
+            },
             {
                 "name": "Absolutism",
                 "uniques": ["[+100]% weight to this choice for AI decisions",
