@@ -77,7 +77,7 @@
 	{
 		"columnNumber": 2,
 		"era": "Ancient era",
-		"techCost": 130,
+		"techCost": 155,
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
@@ -121,7 +121,7 @@
 	{
 		"columnNumber": 3,
 		"era": "Classical era",
-		"techCost": 175,
+		"techCost": 210,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -155,7 +155,7 @@
 	{
 		"columnNumber": 4,
 		"era": "Classical era",
-		"techCost": 250,
+		"techCost": 300,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -197,7 +197,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical era",
-		"techCost": 350,
+		"techCost": 420,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
