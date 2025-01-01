@@ -1587,6 +1587,14 @@
 		"movement": 2
 	},
 	{
+		"name": "Great Writer",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can generate a large amount of culture <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [
