@@ -123,7 +123,7 @@
     },
     {
         "name": "Cathedrals",
-        "type": "Worship Building",
+        "type": "None",
         "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]"]
     },
     {
